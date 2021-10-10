@@ -1,5 +1,8 @@
 ### Hi there 👋
 ![](https://komarev.com/ghpvc/?username=parimalkothari)
+https://github-readme-stats.vercel.app/api?username=parimalkothari&show_icons=true))](https://github.com/parimalkothari)
+
+
 <!--
 **parimalkothari/parimalkothari** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
