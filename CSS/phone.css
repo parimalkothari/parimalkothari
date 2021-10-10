@@ -1,0 +1,129 @@
+
+#navbar{
+    /* border: 2px solid red; */
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 200px;
+    width: auto;
+    overflow: auto;
+}
+
+#navbar ul{
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px;
+}
+
+#navbar ul li {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+#navbar ul li a {
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 0px;
+}
+
+
+
+#logo img{
+    width: 140px;
+    height:80px;
+}
+
+#home{
+    height: 370px;
+    padding: 3px 0px
+}
+
+
+#home::before{
+    height: 600px;
+}
+
+#comp-name{
+    font-size:40px;
+}
+
+#slogan{
+    font-size: 20px;
+}
+
+#services{
+    flex-direction: column;
+}
+
+#services .boxes{
+    /* flex-direction: column; */
+    width: 80%;
+    height:auto;
+    padding: 14px;
+    margin: 2px 0;
+    margin-bottom: 20px;
+}
+
+
+.boxes img{
+    border-radius: 10px;
+    /* margin: 20px; */
+    width: 130px;
+    /* height: 160px; */
+}
+
+#clients{
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+
+#clients-logo{
+    margin:0px;
+}
+.clients-logo img{
+    width: 100px;
+    height: 100px;
+}
+
+/* @media only screen and (max-width: 400px) {
+    #clients,#clients::before{
+        height: 400px;
+    }
+} */
+
+#contact{
+    justify-content:flex-start;
+}
+
+
+#contacts-container form{
+    width: 85%;
+    padding-left: 10px;
+   
+}
+#contacts-heading{
+    /* font-size: 1.5rem; */
+    margin-bottom: 30px;
+}
+
+
+footer{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    background-color: black;
+    color: white;
+    height: 7vh;
+    font-size: 1rem;
+}
+    
+@media only screen and (max-width:410px){
+    footer{
+        height:10vh;
+        align-items: center;
+        padding-left: 20px;
+    }
+}
